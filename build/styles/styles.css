@@ -1,0 +1,208 @@
+@charset "UTF-8";
+body {
+  width: 100vw;
+  height: 200vh;
+  background: #efefef;
+}
+body .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+body .video video {
+  width: 80%;
+  height: 80%;
+}
+body .menu {
+  position: fixed;
+  top: 0;
+  background: rgba(239, 239, 239, 0.5);
+  backdrop-filter: blur(32px);
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  border-radius: 0 0 10px 10px;
+}
+body .menu a {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-weight: normal;
+  color: #373746;
+  text-decoration: none;
+  cursor: pointer;
+}
+body .menu .centerMenu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5vw;
+}
+body .menu .centerMenu a {
+  padding: 0 10px 0 10px;
+}
+body .menu .centerMenu a:hover {
+  color: #d7d7d4;
+}
+body .menu .leftMenu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+body .menu .leftMenu a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 15px;
+  margin-left: 5px;
+  color: #ffffff;
+  background: #aeaeae;
+  border-radius: 100px;
+}
+body .menu .leftMenu a:hover {
+  background: #d7d7d4;
+}
+body .menu .logo {
+  background-image: url("../../items/logo.svg");
+  width: 92px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 24px;
+  margin-left: 40px;
+}
+body .email {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 30vh;
+}
+body .email h1 {
+  font-size: 100px;
+  font-family: helvetica;
+  color: #373746;
+  width: calc(100vw - 220px);
+  margin-left: 40px;
+}
+body .email .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: helvetica;
+  margin: 60px 40px 0 0;
+  width: calc(100vw - 200px);
+}
+body .email .form h2 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 133%;
+  color: #373746;
+  position: relative;
+  top: -40px;
+}
+body .email .form .formInput input {
+  background: #e1e1e1;
+  border-radius: 137px;
+  font-size: 24px;
+  border: none;
+  padding: 12px 203px 12px 24px;
+  margin-right: 12px;
+  outline: none;
+}
+body .email .form .formInput button {
+  padding: 12px 24px;
+  background: #aeaeae;
+  border-radius: 100px;
+  font-size: 24px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+body .email .form .formInput button:hover {
+  background: #d7d7d4;
+}
+body .book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0 40px 0;
+}
+body .book .bookImage {
+  width: 80vw;
+  height: 80vh;
+  background: #989898;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+body .book .a {
+  background: url("../../items/images/развороты.jpg");
+  background-size: cover;
+}
+body .book .b {
+  background: url("../../items/images/развороты-1.jpg");
+  background-size: cover;
+}
+body .book .c {
+  background: url("../../items/images/развороты-2.jpg");
+  background-size: cover;
+}
+body .book .d {
+  background: url("../../items/images/развороты-3.jpg");
+  background-size: cover;
+}
+body .book .e {
+  background: url("../../items/images/развороты-4.jpg");
+  background-size: cover;
+}
+body .book .f {
+  background: url("../../items/images/развороты-5.jpg");
+  background-size: cover;
+}
+body .book .g {
+  background: url("../../items/images/развороты-6.jpg");
+  background-size: cover;
+}
+body .book .h {
+  background: url("../../items/images/развороты-7.jpg");
+  background-size: cover;
+}
+body .book .i {
+  background: url("../../items/images/развороты-8.jpg");
+  background-size: cover;
+}
+body .book .j {
+  background: url("../../items/images/развороты-9.jpg");
+  background-size: cover;
+}
+body .book .k {
+  background: url("../../items/images/развороты-10.jpg");
+  background-size: cover;
+}
+body .book .l {
+  background: url("../../items/images/развороты-11.jpg");
+  background-size: cover;
+}
+body .book .m {
+  background: url("../../items/images/развороты-12.jpg");
+  background-size: cover;
+}
+body .book .n {
+  background: url("../../items/images/развороты-13.jpg");
+  background-size: cover;
+}
+body .book .o {
+  background: url("../../items/images/развороты-14.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */
