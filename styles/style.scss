@@ -142,86 +142,162 @@ body {
       }
     }
   }
-
-  @media (max-width: 425px) {
-  }
-
-  ////book/////
-
-  .book {
+}
+@media (max-width: 425px) {
+  body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 60px 0 40px 0;
+    height: 135vh !important;
+    width: 300px;
+    overflow-x: hidden !important;
 
-    .bookImage {
-      width: 80vw;
-      height: 80vh;
-      background: #989898;
-      border-radius: 20px;
-      margin-top: 20px;
+    .menu {
+      width: 250px;
+      align-self: center;
+      .logo {
+        width: 75px;
+        height: 17px;
+        margin-left: 20px;
+      }
+      .leftMenu {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 0px;
+        .bubble {
+          margin-bottom: 5px;
+        }
+      }
     }
+    .video {
+      margin-top: 200px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 240px;
+      overflow-x: hidden;
+      margin: 0;
 
-    .a {
-      background: url("../../items/images/развороты.jpg");
-      background-size: cover;
+      video {
+        width: 400px;
+        overflow: none;
+      }
     }
-    .b {
-      background: url("../../items/images/развороты-1.jpg");
-      background-size: cover;
+    .email {
+      width: 300px;
+      height: 50vh;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      padding-top: 20vh;
+
+      h1 {
+        font-size: 40px;
+        width: 250px;
+        margin-left: 20px;
+      }
+      .form {
+        margin-left: 20px;
+        h2 {
+          font-size: 18px;
+          width: 250px;
+        }
+
+        .formInput {
+          input {
+            font-size: 18px;
+            width: 200px;
+            border: none;
+            padding: 12px 24px;
+            margin-right: 12px;
+          }
+          button {
+            font-size: 18px;
+            margin-top: 5px;
+          }
+        }
+      }
     }
-    .c {
-      background: url("../../items/images/развороты-2.jpg");
-      background-size: cover;
-    }
-    .d {
-      background: url("../../items/images/развороты-3.jpg");
-      background-size: cover;
-    }
-    .e {
-      background: url("../../items/images/развороты-4.jpg");
-      background-size: cover;
-    }
-    .f {
-      background: url("../../items/images/развороты-5.jpg");
-      background-size: cover;
-    }
-    .g {
-      background: url("../../items/images/развороты-6.jpg");
-      background-size: cover;
-    }
-    .h {
-      background: url("../../items/images/развороты-7.jpg");
-      background-size: cover;
-    }
-    .i {
-      background: url("../../items/images/развороты-8.jpg");
-      background-size: cover;
-    }
-    .j {
-      background: url("../../items/images/развороты-9.jpg");
-      background-size: cover;
-    }
-    .k {
-      background: url("../../items/images/развороты-10.jpg");
-      background-size: cover;
-    }
-    .l {
-      background: url("../../items/images/развороты-11.jpg");
-      background-size: cover;
-    }
-    .m {
-      background: url("../../items/images/развороты-12.jpg");
-      background-size: cover;
-    }
-    .n {
-      background: url("../../items/images/развороты-13.jpg");
-      background-size: cover;
-    }
-    .o {
-      background: url("../../items/images/развороты-14.jpg");
-      background-size: cover;
-    }
+  }
+}
+
+////book/////
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0 40px 0;
+
+  .bookImage {
+    width: 80vw;
+    height: 80vh;
+    background: #989898;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .a {
+    background: url("../../items/images/развороты.jpg");
+    background-size: cover;
+  }
+  .b {
+    background: url("../../items/images/развороты-1.jpg");
+    background-size: cover;
+  }
+  .c {
+    background: url("../../items/images/развороты-2.jpg");
+    background-size: cover;
+  }
+  .d {
+    background: url("../../items/images/развороты-3.jpg");
+    background-size: cover;
+  }
+  .e {
+    background: url("../../items/images/развороты-4.jpg");
+    background-size: cover;
+  }
+  .f {
+    background: url("../../items/images/развороты-5.jpg");
+    background-size: cover;
+  }
+  .g {
+    background: url("../../items/images/развороты-6.jpg");
+    background-size: cover;
+  }
+  .h {
+    background: url("../../items/images/развороты-7.jpg");
+    background-size: cover;
+  }
+  .i {
+    background: url("../../items/images/развороты-8.jpg");
+    background-size: cover;
+  }
+  .j {
+    background: url("../../items/images/развороты-9.jpg");
+    background-size: cover;
+  }
+  .k {
+    background: url("../../items/images/развороты-10.jpg");
+    background-size: cover;
+  }
+  .l {
+    background: url("../../items/images/развороты-11.jpg");
+    background-size: cover;
+  }
+  .m {
+    background: url("../../items/images/развороты-12.jpg");
+    background-size: cover;
+  }
+  .n {
+    background: url("../../items/images/развороты-13.jpg");
+    background-size: cover;
+  }
+  .o {
+    background: url("../../items/images/развороты-14.jpg");
+    background-size: cover;
   }
 }
