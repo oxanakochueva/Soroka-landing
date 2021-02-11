@@ -4,6 +4,55 @@ body {
   height: 200vh;
   background: #efefef;
 }
+body .featuresSection {
+  position: absolute;
+  left: 8%;
+  width: 84%;
+  height: 354px;
+  top: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .featuresSection .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body .featuresSection .feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .featuresSection .feature .featureIcon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+body .featuresSection .feature .featureIcon.choose {
+  background-image: url("../../items/choose_icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .featuresSection .feature .featureIcon.explore {
+  background-image: url("../../items/explore_icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .featuresSection .feature .featureIcon.export {
+  background-image: url("../../items/export_icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .featuresSection .feature .featureText {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 133%;
+  color: #373746;
+}
 body .video {
   display: flex;
   justify-content: center;
@@ -140,7 +189,7 @@ body .email .form .formInput button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 150vh !important;
+    height: 260vh;
     /* width: 300px; */
     overflow-x: hidden !important;
   }
@@ -152,7 +201,7 @@ body .email .form .formInput button:hover {
   body .menu .logo {
     width: 75px;
     height: 17px;
-    margin-left: 20px;
+    margin-left: 0;
   }
   body .menu .leftMenu {
     margin-top: 40px;
@@ -163,6 +212,20 @@ body .email .form .formInput button:hover {
   body .menu .leftMenu .bubble {
     margin-bottom: 5px;
     font-size: 18px;
+  }
+  body .featuresSection {
+    position: relative;
+    left: 0;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .featuresSection .feature {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
   }
   body .video {
     margin-top: 200px !important;
@@ -186,7 +249,7 @@ body .email .form .formInput button:hover {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    padding-top: 20vh;
+    padding-top: 60vh;
   }
   body .email h1 {
     font-size: 40px;
