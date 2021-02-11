@@ -234,6 +234,9 @@ body {
       flex-direction: column;
       align-items: center;
       height: 520px;
+      .left {
+        justify-content: flex-start;
+      }
       .feature {
         display: flex;
         align-items: center;
