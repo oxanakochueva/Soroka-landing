@@ -216,12 +216,11 @@ body .email .form .formInput button:hover {
   body .featuresSection {
     position: relative;
     left: 0;
-    /* top: 180px; */
-    top: 0;
+    top: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 520px;
+    height: 720px;
   }
   body .featuresSection .left {
     justify-content: space-between;
@@ -232,6 +231,10 @@ body .email .form .formInput button:hover {
     align-items: center;
     flex-direction: column;
     margin-bottom: 80px;
+  }
+  body .featuresSection .feature .featureIcon {
+    width: 80px;
+    height: 80px;
   }
   body .video {
     margin-top: 200px !important;
