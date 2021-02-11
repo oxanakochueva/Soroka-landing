@@ -229,14 +229,15 @@ body {
     .featuresSection {
       position: relative;
       left: 0;
-      top: 180px;
+      /* top: 180px; */
+      top: 0;
       display: flex;
       flex-direction: column;
       align-items: center;
       height: 520px;
       .left {
         justify-content: space-between;
-        height: 278px;
+        /* height: 278px; */
       }
       .feature {
         display: flex;
