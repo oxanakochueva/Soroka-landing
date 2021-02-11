@@ -263,10 +263,10 @@ body .email .form .formInput button:hover {
   body .email h1 {
     font-size: 40px;
     width: 250px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   body .email .form {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   body .email .form h2 {
     font-size: 20px;
