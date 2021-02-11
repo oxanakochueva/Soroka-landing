@@ -202,7 +202,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 260vh;
+    height: 286vh;
     /* width: 300px; */
     overflow-x: hidden !important;
 
@@ -230,11 +230,11 @@ body {
     .featuresSection {
       position: relative;
       left: 0;
-      top: 180px;
+      top: 130px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 720px;
+      height: 93vh;
       .left {
         justify-content: space-between;
         /* height: 278px; */
@@ -270,11 +270,11 @@ body {
     .email {
       /* width: 300px; */
       width: 90%;
-      height: 50vh;
+      height: 100vh;
       justify-content: center;
       display: flex;
       flex-direction: column;
-      padding-top: 60vh;
+      padding-top: 10vh;
 
       h1 {
         font-size: 40px;
