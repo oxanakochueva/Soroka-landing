@@ -195,20 +195,21 @@ body .email .form .formInput button:hover {
     overflow-x: hidden !important;
   }
   body .menu {
-    /* width: 250px; */
-    width: 90%;
+    width: 95%;
     align-self: center;
+    height: 100px;
   }
   body .menu .logo {
     width: 75px;
     height: 17px;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-bottom: 40px;
   }
   body .menu .leftMenu {
-    margin-top: 40px;
+    margin-top: 0;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 0px;
+    margin-right: 10px;
   }
   body .menu .leftMenu .bubble {
     margin-bottom: 5px;
