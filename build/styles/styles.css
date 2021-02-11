@@ -69,6 +69,7 @@ body .menu {
   top: 0;
   background: rgba(239, 239, 239, 0.5);
   backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
   height: 60px;
   width: 100vw;
   display: flex;
