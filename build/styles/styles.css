@@ -227,7 +227,6 @@ body .email .form .formInput button:hover {
   }
   body .featuresSection .left {
     justify-content: space-between;
-    /* height: 278px; */
   }
   body .featuresSection .feature {
     display: flex;
