@@ -218,7 +218,7 @@ body .email .form .formInput button:hover {
   body .featuresSection {
     position: relative;
     left: 0;
-    top: 130px;
+    top: 286px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,7 +239,7 @@ body .email .form .formInput button:hover {
     height: 80px;
   }
   body .video {
-    margin-top: 200px !important;
+    margin-top: 240px !important;
     display: flex;
     justify-content: center;
     align-items: center;
