@@ -236,6 +236,7 @@ body {
       flex-direction: column;
       align-items: center;
       height: 93vh;
+      justify-content: flex-start;
       .left {
         justify-content: space-between;
         /* height: 278px; */
@@ -265,7 +266,7 @@ body {
       video {
         width: 500px;
         height: 300px;
-        overflow: none;
+        /* overflow: none; */
       }
     }
     .email {
