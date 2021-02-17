@@ -194,9 +194,9 @@ body {
     }
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   html {
-    max-width: 425px;
+    max-width: 767px;
   }
   body {
     display: flex;
