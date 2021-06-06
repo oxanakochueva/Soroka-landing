@@ -34,34 +34,156 @@
       <a class="logo" href="index.html"></a>
       <div class="leftMenu">
         <a
-          class="bubble"
+          class="bubble install"
           href="https://www.figma.com/community/plugin/974335140113080867/Soroka"
-          >Install Plugin</a
+          >Install</a
         >
         <a class="bubble" href="index_ru.html">Ru</a>
       </div>
     </div>
-
-    <div class="video">
-      <video autoplay loop muted playsinline>
-        <source src="items/Soroka_Prototype.mp4" type="video/mp4" />
-      </video>
-    </div>
-    <div class="featuresSection">
-      <div class="left">
-        <div class="feature">
-          <div class="featureIcon explore"></div>
-          <div class="featureText">Explore font pairs</div>
+    <div class="contentBlock">
+      <div class="contentBlockSection">
+        <div class="header changingFont">
+          Finding harmony among disparate fonts
+          <!-- Finding harmony among disparate fonts with Soroka -->
         </div>
-        <div class="feature">
-          <div class="featureIcon choose"></div>
-          <div class="featureText">Choose perfect pairing</div>
+        <div class="text">
+          Plugin for the selection of font pairs
+        </div>
+        <div class="buttonRow">
+          <a class="button" href="#learnMore">How it works</a>
+          <a
+            class="button install"
+            href="https://www.figma.com/community/plugin/974335140113080867/Soroka"
+            >Install</a
+          >
+        </div>
+
+        <div class="cover">
+          <video autoplay loop muted playsinline>
+            <source src="items/Soroka_Prototype.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
-      <div class="right">
-        <div class="feature">
-          <div class="featureIcon export"></div>
-          <div class="featureText">Export as a template</div>
+      <div class="contentBlockSection features">
+        <div class="header biggerMargin">
+          Find the perfect combination without leaving Figma
+        </div>
+        <div class="featuresBlock">
+          <div class="tab">
+            <input type="radio" id="favourites" name="tabGroup" checked />
+            <label for="favourites">Favourites</label>
+
+            <div class="content">
+              <div class="media">
+                <video autoplay loop muted playsinline>
+                  <source src="items/preview.mov" type="video/mp4" />
+                </video>
+              </div>
+              <div class="text">
+                Понравившиеся пары можно добавить в избранное, так они всегда
+                будут под рукой в самом верху плагина
+              </div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <input type="radio" id="filters" name="tabGroup" />
+            <label for="filters">Filters</label>
+
+            <div class="content">
+              <div class="media">
+                <video autoplay loop muted playsinline>
+                  <source src="items/preview.mov" type="video/mp4" />
+                </video>
+              </div>
+              <div class="text">
+                Фильтр по виду дефолтному виду карточки, доступному языку шрифта
+                и типу шрифта, а также поиск
+              </div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <input type="radio" id="preview" name="tabGroup" />
+            <label for="preview">Preview</label>
+
+            <div class="content">
+              <div class="media">
+                <video autoplay loop muted playsinline>
+                  <source src="items/preview.mov" type="video/mp4" />
+                </video>
+              </div>
+              <div class="text">
+                При наведении можно увидеть как выглядит сочетание щрифтов в
+                виде букв, слов и заголовка с текстом
+              </div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <input type="radio" id="fonts" name="tabGroup" />
+            <label for="fonts">Google&nbspFonts</label>
+
+            <div class="content">
+              <div class="media googleFontsImage"></div>
+              <div class="text">
+                Шрифтовые пары составлены из шрифтов Google, опубликованных в
+                Figma, они бесплатны, гарантированно качественные и доступны в
+                Figma по умолчанию
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contentBlockSection">
+        <div class="header">
+          See the usage example and save the template in your project
+        </div>
+        <div class="text">
+          For each pair, an article page is created, which is both an example of
+          using a combination and information about fonts and their designers.
+          You can save the article as a template directly to your Figma
+          workspace
+        </div>
+        <div class="export">
+          <video autoplay loop muted playsinline>
+            <source src="items/export.mov" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="contentBlockSection book">
+        <div class="info">
+          <div class="subheader">
+            Soroka book (ru only)
+          </div>
+          <div class="text">
+            The book will immerse you in the details of the plugin development
+            and tell you about its purpose, reveal the concepts of the problem
+            of choice and analytical paralysis
+          </div>
+          <a class="button" href="https://issuu.com/mirero/docs/soroka_book_yay"
+            >Read book</a
+          >
+        </div>
+
+        <div class="bookImage"></div>
+      </div>
+      <div class="contentBlockSection ">
+        <div class="largeLogo"></div>
+        <div class="footer">
+          <div class="links">
+            <a
+              href="https://www.figma.com/community/plugin/974335140113080867/Soroka"
+              >Install plugin</a
+            >
+            <a href="https://github.com/oxanakochueva/font">GitHub</a>
+            <a href="">Contact us</a>
+          </div>
+          <div>
+            2021
+          </div>
         </div>
       </div>
     </div>

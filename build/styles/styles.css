@@ -1,120 +1,58 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,400&family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;700&family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:wght@400;500;700;800&family=Bitter:wght@300;400;500;600;700;800&family=Cabin:wght@400;500;600;700&family=Cardo:wght@400;700&family=Domine:wght@400;500;600;700&family=Fira+Mono:wght@400;500;700&family=Francois+One&family=Hind:wght@300;400;500;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Kreon:wght@300;400;500;600;700&family=Lato:wght@400;700&family=Lora:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@300;400;500;700&family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700&family=Prompt:wght@200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Rokkitt:wght@100;300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&family=Space+Mono:wght@400;700&family=Ubuntu:wght@300;400;500;700&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 body {
   width: 100vw;
   height: 100vh;
-  background: #efefef;
-}
-body .featuresSection {
-  position: absolute;
-  left: 8%;
-  width: 84%;
-  height: 354px;
-  top: 180px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-body .featuresSection .left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-body .featuresSection .feature {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-body .featuresSection .feature .featureIcon {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 10px;
-}
-body .featuresSection .feature .featureIcon.choose {
-  background-image: url("../../items/choose_icon.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body .featuresSection .feature .featureIcon.explore {
-  background-image: url("../../items/explore_icon.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body .featuresSection .feature .featureIcon.export {
-  background-image: url("../../items/export_icon.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body .featuresSection .feature .featureText {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 133%;
-  color: #373746;
-}
-body .video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-body .video video {
-  width: 80%;
-  height: 80%;
+  /* background: #efefef; */
+  background: #faf8f7;
 }
 body .menu {
   position: fixed;
   top: 0;
-  background: rgba(239, 239, 239, 0.5);
+  left: 0;
+  background: rgba(250, 248, 247, 0.5);
   backdrop-filter: blur(32px);
   -webkit-backdrop-filter: blur(32px);
-  height: 60px;
+  height: 65px;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   z-index: 3;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 12px 12px;
 }
 body .menu a {
   font-family: "Helvetica Neue";
   font-size: 15px;
-  font-weight: normal;
-  color: #373746;
+  color: #2a2921;
   text-decoration: none;
   cursor: pointer;
-}
-body .menu .centerMenu {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 5vw;
-}
-body .menu .centerMenu a {
-  padding: 0 10px 0 10px;
-}
-body .menu .centerMenu a:hover {
-  color: #d7d7d4;
 }
 body .menu .leftMenu {
   display: flex;
   justify-content: space-between;
-  margin-right: 40px;
+  margin-right: 7%;
+  align-items: center;
 }
 body .menu .leftMenu a {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 5px 15px;
+  padding: 5px;
   margin-left: 5px;
+  color: #2a2921;
+}
+body .menu .leftMenu a.install {
+  padding: 12px 24px 12px 24px;
+  background: #2a2921;
   color: #ffffff;
-  background: #aeaeae;
-  border-radius: 100px;
+  color: #ffffff;
+  border-radius: 50px;
 }
 body .menu .leftMenu a:hover {
-  background: #d7d7d4;
+  color: #d7d7d4;
 }
 body .menu .logo {
   background-image: url("../../items/logo.svg");
@@ -122,63 +60,237 @@ body .menu .logo {
   background-size: contain;
   background-repeat: no-repeat;
   height: 24px;
-  margin-left: 40px;
+  margin-left: 7%;
 }
-body .email {
-  width: 100vw;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 30vh;
-}
-body .email h1 {
-  font-size: 100px;
-  font-family: helvetica;
-  color: #373746;
-  width: calc(100vw - 220px);
-  margin-left: 40px;
-}
-body .email .form {
+body .contentBlock {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: helvetica;
-  margin: 60px 40px 0 0;
-  width: calc(100vw - 200px);
+  margin: 7%;
 }
-body .email .form h2 {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
+body .contentBlock .contentBlockSection {
+  width: 100%;
+  margin-bottom: 300px;
+}
+body .contentBlock .contentBlockSection:last-child {
+  margin-bottom: 70px;
+}
+body .contentBlock .contentBlockSection.features {
+  margin-bottom: 70px;
+}
+body .contentBlock .contentBlockSection .header {
+  font-family: "Helvetica Neue";
+  font-size: 80px;
+  line-height: 111%;
+  letter-spacing: -0.02em;
+  color: #2a2921;
+  margin-bottom: 15px;
+  width: 80%;
+}
+body .contentBlock .contentBlockSection .header.biggerMargin {
+  margin-bottom: 144px;
+}
+body .contentBlock .contentBlockSection .header.changingFont {
+  font-size: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+  text-align: left;
+}
+body .contentBlock .contentBlockSection .text {
+  font-family: "Helvetica Neue";
+  font-size: 28px;
   line-height: 133%;
-  color: #373746;
-  position: relative;
-  top: -40px;
+  color: #2a2921;
+  margin-bottom: 70px;
+  width: 80%;
 }
-body .email .form .formInput input {
-  background: #e1e1e1;
-  border-radius: 137px;
-  font-size: 24px;
-  border: none;
-  padding: 12px 203px 12px 24px;
-  margin-right: 12px;
-  outline: none;
+body .contentBlock .contentBlockSection .cover video {
+  width: 45%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0;
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+  box-shadow: 1px 6px 15px rgba(36, 37, 38, 0.08);
 }
-body .email .form .formInput button {
-  padding: 12px 24px;
-  background: #aeaeae;
-  border-radius: 100px;
-  font-size: 24px;
-  border: none;
-  color: #ffffff;
+body .contentBlock .contentBlockSection .buttonRow {
+  display: flex;
+  flex-direction: row;
+}
+body .contentBlock .contentBlockSection .buttonRow .button {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  padding: 15px 40px 15px 40px;
+  border-radius: 65px;
+  box-shadow: 1px 6px 15px rgba(36, 37, 38, 0.08);
+  color: #2a2921;
+  background: #ffffff;
+  text-decoration: none;
   cursor: pointer;
-  outline: none;
 }
-body .email .form .formInput button:hover {
-  background: #d7d7d4;
+body .contentBlock .contentBlockSection .buttonRow .button:first-child {
+  margin-right: 14px;
+}
+body .contentBlock .contentBlockSection .buttonRow .button.install {
+  color: #ffffff;
+  background: #2a2921;
+}
+body .contentBlock .contentBlockSection video {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+body .contentBlock .contentBlockSection .featuresBlock {
+  min-height: 150vh;
+  position: relative;
+  clear: both;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab {
+  float: left;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab::-webkit-scrollbar {
+  display: none;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab [type=radio] {
+  display: none;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab label {
+  position: relative;
+  left: 1px;
+  top: -29px;
+  font-size: 50px;
+  font-family: "Helvetica Neue";
+  line-height: 111%;
+  letter-spacing: -0.02em;
+  color: #aeaeae;
+  border-radius: 65px;
+  margin-right: 49px;
+  cursor: pointer;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab label:hover {
+  color: #d7d7d4;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab label:last-child {
+  margin-right: 100px;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab .content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 7%;
+  background: #efefef;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab .content .googleFontsImage {
+  background-image: url("../../items/google.png");
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+  background-position: center;
+}
+body .contentBlock .contentBlockSection .featuresBlock .tab .content .text {
+  font-size: 20px;
+  text-align: left;
+  margin: 28px 0;
+  width: 100%;
+}
+body .contentBlock .contentBlockSection .featuresBlock [type=radio]:checked ~ label {
+  color: #2a2921;
+  z-index: 2;
+}
+body .contentBlock .contentBlockSection .featuresBlock [type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+  opacity: 1;
+}
+body .contentBlock .contentBlockSection .featuresBlock .featureContent {
+  width: calc(100vw - 14%);
+}
+body .contentBlock .contentBlockSection .featuresBlock video {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+body .contentBlock .contentBlockSection.book {
+  background: #efefef;
+  border-radius: 12px;
+  padding: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+}
+body .contentBlock .contentBlockSection.book .info {
+  width: 49%;
+}
+body .contentBlock .contentBlockSection.book .info .subheader {
+  width: fit-content;
+  font-family: "Helvetica Neue";
+  font-size: 50px;
+  line-height: 111%;
+  letter-spacing: -0.02em;
+  color: #2a2921;
+}
+body .contentBlock .contentBlockSection.book .info .text {
+  margin-bottom: 36px;
+  text-align: left;
+  font-size: 20px;
+  width: 100%;
+}
+body .contentBlock .contentBlockSection.book .info .button {
+  background: #ffffff;
+  margin-bottom: 120px;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  padding: 15px 40px 15px 40px;
+  border-radius: 65px;
+  color: #2a2921;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 1px 6px 15px rgba(36, 37, 38, 0.08);
+}
+body .contentBlock .contentBlockSection.book .bookImage {
+  width: 350px;
+  height: 350px;
+  background-image: url("../../items/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  margin-right: 7%;
+}
+body .contentBlock .largeLogo {
+  width: 100%;
+  height: 300px;
+  background-image: url("../../items/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+}
+body .contentBlock .footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  color: #2a2921;
+  cursor: pointer;
+}
+body .contentBlock .footer .links a {
+  text-decoration: none;
+  color: #2a2921;
+  margin-right: 49px;
 }
 
 @media (max-width: 767px) {
@@ -190,178 +302,122 @@ body .email .form .formInput button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 286vh; */
     height: 140vh;
-    /* height: 100vh; */
-    /* width: 300px; */
     overflow-x: hidden !important;
   }
   body .menu {
-    width: 95%;
     align-self: center;
-    height: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
   }
   body .menu .logo {
-    width: 75px;
-    height: 17px;
-    margin-left: 10px;
-    margin-bottom: 40px;
+    width: 100px;
+    height: 25px;
+    margin-left: 7%;
   }
   body .menu .leftMenu {
     margin-top: 0;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 7%;
   }
   body .menu .leftMenu .bubble {
-    margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 15px;
   }
-  body .featuresSection {
-    position: relative;
-    left: 0;
-    /* top: 286px; */
-    top: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 93vh;
-    justify-content: flex-start;
-  }
-  body .featuresSection .left {
-    justify-content: space-between;
-  }
-  body .featuresSection .feature {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 80px;
-  }
-  body .featuresSection .feature .featureIcon {
-    width: 80px;
-    height: 80px;
-  }
-  body .video {
-    margin-top: 240px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
+  body .contentBlock {
+    width: 86%;
     margin: 0;
   }
-  body .video video {
-    width: 500px;
-    height: 300px;
-    /* overflow: none; */
+  body .contentBlock .contentBlockSection {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0;
   }
-  body .email {
-    /* width: 300px; */
+  body .contentBlock .contentBlockSection .header {
+    font-size: 50px;
+  }
+  body .contentBlock .contentBlockSection .header.changingFont {
+    font-size: 70px;
+    margin-bottom: 28px;
+  }
+  body .contentBlock .contentBlockSection .header.biggerMargin {
+    margin-bottom: 0px;
+  }
+  body .contentBlock .contentBlockSection .text {
+    font-size: 20px;
+    margin-bottom: 56px;
     width: 90%;
-    height: 100vh;
-    justify-content: center;
+  }
+  body .contentBlock .contentBlockSection .buttonRow {
     display: flex;
     flex-direction: column;
-    padding-top: 10vh;
+    width: 100%;
+    margin: 0 auto;
   }
-  body .email h1 {
-    font-size: 40px;
-    width: 250px;
-    margin-left: 0px !important;
+  body .contentBlock .contentBlockSection .buttonRow .button {
+    text-align: center;
+    margin-bottom: 14px;
   }
-  body .email .form {
-    margin-left: 0px !important;
+  body .contentBlock .contentBlockSection .buttonRow .button:first-child {
+    margin-right: 0;
   }
-  body .email .form h2 {
-    font-size: 20px;
+  body .contentBlock .contentBlockSection .cover {
+    margin-top: 56px;
+  }
+  body .contentBlock .contentBlockSection .cover video {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 7%;
+    left: 0;
+    right: 0;
+  }
+  body .contentBlock .contentBlockSection.features .featuresBlock {
+    min-height: 80vh;
+  }
+  body .contentBlock .contentBlockSection.features .featuresBlock .tab label {
+    top: 36px;
+    font-size: 35px;
+  }
+  body .contentBlock .contentBlockSection.features .featuresBlock .tab .content {
+    top: 235px;
+  }
+  body .contentBlock .contentBlockSection.features .featuresBlock .tab .content .media.googleFontsImage {
+    height: 200px;
+    margin-bottom: 0;
+  }
+  body .contentBlock .contentBlockSection.book {
+    flex-direction: column;
+  }
+  body .contentBlock .contentBlockSection.book .info {
+    width: 100%;
+  }
+  body .contentBlock .contentBlockSection.book .bookImage {
     width: 300px;
+    height: 300px;
+    margin-top: 7%;
+    margin-right: 0;
   }
-  body .email .form .formInput input {
-    font-size: 20px;
-    width: 250px;
-    border: none;
-    padding: 12px 24px;
-    margin-right: 12px;
+  body .contentBlock .contentBlockSection .largeLogo {
+    height: 100px;
   }
-  body .email .form .formInput button {
-    font-size: 20px;
-    margin-top: 7px;
+  body .contentBlock .contentBlockSection .footer {
+    flex-direction: column;
+    align-items: center;
   }
-}
-.book {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 60px 0 40px 0;
-}
-.book .bookImage {
-  width: 80vw;
-  height: 80vh;
-  background: #989898;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-.book .a {
-  background: url("../../items/images/развороты.jpg");
-  background-size: cover;
-}
-.book .b {
-  background: url("../../items/images/развороты-1.jpg");
-  background-size: cover;
-}
-.book .c {
-  background: url("../../items/images/развороты-2.jpg");
-  background-size: cover;
-}
-.book .d {
-  background: url("../../items/images/развороты-3.jpg");
-  background-size: cover;
-}
-.book .e {
-  background: url("../../items/images/развороты-4.jpg");
-  background-size: cover;
-}
-.book .f {
-  background: url("../../items/images/развороты-5.jpg");
-  background-size: cover;
-}
-.book .g {
-  background: url("../../items/images/развороты-6.jpg");
-  background-size: cover;
-}
-.book .h {
-  background: url("../../items/images/развороты-7.jpg");
-  background-size: cover;
-}
-.book .i {
-  background: url("../../items/images/развороты-8.jpg");
-  background-size: cover;
-}
-.book .j {
-  background: url("../../items/images/развороты-9.jpg");
-  background-size: cover;
-}
-.book .k {
-  background: url("../../items/images/развороты-10.jpg");
-  background-size: cover;
-}
-.book .l {
-  background: url("../../items/images/развороты-11.jpg");
-  background-size: cover;
-}
-.book .m {
-  background: url("../../items/images/развороты-12.jpg");
-  background-size: cover;
-}
-.book .n {
-  background: url("../../items/images/развороты-13.jpg");
-  background-size: cover;
-}
-.book .o {
-  background: url("../../items/images/развороты-14.jpg");
-  background-size: cover;
+  body .contentBlock .contentBlockSection .footer .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  body .contentBlock .contentBlockSection .footer .links a {
+    margin-right: 0;
+  }
+  body .contentBlock .contentBlockSection:last-child {
+    margin-bottom: 56px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
