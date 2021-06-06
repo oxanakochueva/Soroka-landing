@@ -51,8 +51,12 @@ body .menu .leftMenu a.install {
   color: #ffffff;
   border-radius: 50px;
 }
+body .menu .leftMenu a.install:hover {
+  color: #ffffff;
+  background: #aeaeae;
+}
 body .menu .leftMenu a:hover {
-  color: #d7d7d4;
+  color: #aeaeae;
 }
 body .menu .logo {
   background-image: url("../../items/logo.svg");
@@ -135,9 +139,17 @@ body .contentBlock .contentBlockSection .buttonRow .button {
 body .contentBlock .contentBlockSection .buttonRow .button:first-child {
   margin-right: 14px;
 }
+body .contentBlock .contentBlockSection .buttonRow .button:first-child:hover {
+  color: #ffffff;
+  background: #aeaeae;
+}
 body .contentBlock .contentBlockSection .buttonRow .button.install {
   color: #ffffff;
   background: #2a2921;
+}
+body .contentBlock .contentBlockSection .buttonRow .button.install:hover {
+  color: #ffffff;
+  background: #aeaeae;
 }
 body .contentBlock .contentBlockSection video {
   width: 100%;
@@ -285,12 +297,16 @@ body .contentBlock .footer {
   font-family: "Helvetica Neue";
   font-size: 15px;
   color: #2a2921;
-  cursor: pointer;
+  cursor: default;
 }
 body .contentBlock .footer .links a {
   text-decoration: none;
   color: #2a2921;
   margin-right: 49px;
+  cursor: pointer;
+}
+body .contentBlock .footer .links a:hover {
+  color: #aeaeae;
 }
 
 @media (max-width: 767px) {

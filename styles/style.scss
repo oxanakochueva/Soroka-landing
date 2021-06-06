@@ -51,9 +51,13 @@ body {
           color: #ffffff;
           color: #ffffff;
           border-radius: 50px;
+          &:hover {
+            color: #ffffff;
+            background: #aeaeae;
+          }
         }
         &:hover {
-          color: #d7d7d4;
+          color: #aeaeae;
         }
       }
     }
@@ -142,13 +146,22 @@ body {
           background: #ffffff;
           text-decoration: none;
           cursor: pointer;
+
           &:first-child {
             margin-right: 14px;
+            &:hover {
+              color: #ffffff;
+              background: #aeaeae;
+            }
           }
 
           &.install {
             color: #ffffff;
             background: #2a2921;
+            &:hover {
+              color: #ffffff;
+              background: #aeaeae;
+            }
           }
         }
       }
@@ -321,13 +334,17 @@ body {
       font-family: "Helvetica Neue";
       font-size: 15px;
       color: #2a2921;
-      cursor: pointer;
+      cursor: default;
 
       .links {
         a {
           text-decoration: none;
           color: #2a2921;
           margin-right: 49px;
+          cursor: pointer;
+          &:hover {
+            color: #aeaeae;
+          }
         }
       }
     }
