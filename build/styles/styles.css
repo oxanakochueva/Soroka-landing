@@ -255,6 +255,7 @@ body .contentBlock .contentBlockSection.book .info .subheader {
   line-height: 111%;
   letter-spacing: -0.02em;
   color: #2a2921;
+  margin-bottom: 36px;
 }
 body .contentBlock .contentBlockSection.book .info .text {
   margin-bottom: 36px;
