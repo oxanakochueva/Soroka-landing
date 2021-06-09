@@ -107,16 +107,16 @@ body .contentBlock .contentBlockSection .text {
   line-height: 133%;
   color: #2a2921;
   margin-bottom: 70px;
-  width: 80%;
+  /* width: 80%; */
 }
 body .contentBlock .contentBlockSection .cover video {
-  width: 45%;
+  width: 35%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 2px;
   margin: 0;
   position: absolute;
-  bottom: 7%;
-  right: 7%;
+  bottom: -14%;
+  right: 14%;
   box-shadow: 1px 6px 15px rgba(36, 37, 38, 0.08);
 }
 body .contentBlock .contentBlockSection .buttonRow {
@@ -198,23 +198,26 @@ body .contentBlock .contentBlockSection .featuresBlock .tab .content {
   opacity: 0;
   height: fit-content;
   border-radius: 12px;
-  padding: 7%;
+  padding: 0 0 7% 0;
   background: #efefef;
 }
 body .contentBlock .contentBlockSection .featuresBlock .tab .content .googleFontsImage {
-  background-image: url("../../items/google.png");
-  width: 100%;
+  background-image: url("../../items/images/google_fonts.png");
+  /* width: 100%; */
   height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 150px;
+  /*               margin-bottom: 150px; */
   background-position: center;
+  margin: 0 7% 0 7%;
 }
 body .contentBlock .contentBlockSection .featuresBlock .tab .content .text {
   font-size: 20px;
   text-align: left;
-  margin: 28px 0;
-  width: 100%;
+  margin: 0 auto;
+  padding: 0 7%;
+  /* margin: 28px 0; */
+  /* width: 100%;s */
 }
 body .contentBlock .contentBlockSection .featuresBlock [type=radio]:checked ~ label {
   color: #2a2921;
